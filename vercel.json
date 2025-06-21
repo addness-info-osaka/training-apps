@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "framework": "nextjs",
+  "regions": ["nrt1"],
+  "buildCommand": "npm run build",
+  "installCommand": "npm install",
+  "functions": {
+    "src/app/**/*.{ts,tsx}": {
+      "runtime": "nodejs20.x"
+    }
+  }
+} 
